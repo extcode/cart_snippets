@@ -1,0 +1,22 @@
+# ----------- CONFIGURABLE START -----------
+title:            "Cart Snippets"
+description:      "Snippets collection for my TYPO3 extensions Cart and Cart*"
+url:              http://extcode.github.io/cart_snippets
+signoff:          "extcode"
+facebook_appid:
+google_analytics:
+share:            true
+
+links:
+  - name:         Posts
+    url:          /
+    external:     false
+  - name:         About me
+    url:          /about
+    external:     false
+# ------------ CONFIGURABLE END ------------
+
+permalink:        /posts/:title
+defaults:
+  - values:
+      layout: "default"
